@@ -8,6 +8,7 @@ Simple and sweet, even includes a healthcheck. Works great on a Raspberry Pi, to
 docker run \  
 -d \
 --name technitium-dns \
+--restart always \
 -p 5380:5380/tcp \
 -p 53/53/tcp \
 -p 53/53/udp \
