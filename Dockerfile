@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/core/runtime:2.2
 
-LABEL maintainer="magn2o@gmail.com"
+LABEL maintainer="magn2o"
 
 RUN \
     apt-get -y update && apt-get -y install curl dnsutils && \
